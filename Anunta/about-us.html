@@ -1,0 +1,670 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Anunta</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+    <!-------------------css-link---------------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/workspace.css">
+    <link rel="stylesheet" href="css/cloud_services.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/mi_style.css">
+    <link rel="stylesheet" href="css/main_navbar.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="main_header fixed-top" id="mynav">
+        <div class="container">
+            <div class="menu_inner">
+                <div class="menu_left">
+                    <a class="menu_logo" href="index.html">
+                        <img class="white_logo" src="images/logo_white.svg" />
+                        <img class="main_logo" src="images/color_logo.svg" />
+                    </a>
+                    <button class="mobile_menu_btn">
+                        <i class="ri-menu-line"></i>
+                    </button>
+                    <!-- Mobile Menu Accordion -->
+                    <div class="mobile_menu_wrap">
+                        <div class="mb_inner">
+                            <div class="accordion" id="mobile_accordion">
+                                <div class="accordion-item">
+                                    <button id="solution-mmenu" class="accordion-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#solution_mmenu" aria-expanded="false"
+                                        aria-controls="solution_mmenu">
+                                        Solutions
+                                    </button>
+                                    <div id="solution_mmenu" class="accordion-collapse collapse"
+                                        aria-labelledby="solution-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Unlock the Future of Digital Workspaces</h4>
+                                                        <ul>
+                                                            <li><a href="digital-workspace.html">Digital Workspaces</a>
+                                                            </li>
+                                                            <li class="solution_menu_box"><a
+                                                                    href="development-solutions.html">DaaS (Desktop as a
+                                                                    Service)</a></li>
+                                                            <li class="solution_menu_box"><a href="mdm.html">MDM (Modern
+                                                                    Desktop Management)</a></li>
+                                                            <li class="solution_menu_box"><a href="sase.html">SASE
+                                                                    (Secure Access Service Edge)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Elevate Your Business with Premier Cloud Services</h4>
+                                                        <ul>
+                                                            <li><a href="cloud_services.html">Cloud Services</a></li>
+                                                            <li class="solution_menu_box"><a
+                                                                    href="migration.html">Migration</a></li>
+                                                            <li class="solution_menu_box"><a
+                                                                    href="management.html">Management</a></li>
+                                                            <li class="solution_menu_box"><a
+                                                                    href="optimization.html">Optimization</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button id="industries-mmenu" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#industries_mmenu"
+                                        aria-expanded="false" aria-controls="industries_mmenu">
+                                        Industries
+                                    </button>
+                                    <div id="industries_mmenu" class="accordion-collapse collapse"
+                                        aria-labelledby="industries-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Crafting Industry-Centric Clouds</h4>
+                                                        <ul>
+                                                            <li><a href="bank.html">Banks and Financial Services</a>
+                                                            </li>
+                                                            <li><a href="healthcare.html">Healthcare and
+                                                                    Pharmaceuticals</a></li>
+                                                            <li><a href="it.html">IT and ITES</a></li>
+                                                            <li><a href="manufacturing.html">Manufacturing</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Elevate Your Business with Premier Cloud Services</h4>
+                                                        <ul>
+                                                            <li><a href="insurance.html">Insurance</a></li>
+                                                            <li><a href="retail.html">Retail</a></li>
+                                                            <li><a href="education.html">Education</a></li>
+                                                            <li><a href="professional.html">Professional Services</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button id="resource-mmenu" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#resource_mmenu" aria-expanded="false"
+                                        aria-controls="resource_mmenu">
+                                        Resource
+                                    </button>
+                                    <div id="resource_mmenu" class="accordion-collapse collapse"
+                                        aria-labelledby="resource-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Discover & Dive In</h4>
+                                                        <ul>
+                                                            <li><a href="blog-list.html">Blog</a></li>
+                                                            <li><a href="case_studies.html">Case Studies</a></li>
+                                                            <li><a href="#">Videos</a></li>
+                                                            <li><a href="#">FAQ</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Grab & Go Guides</h4>
+                                                        <ul>
+                                                            <li><a href="whitepaper.html">Whitepapers</a></li>
+                                                            <li><a href="#">Reports</a></li>
+                                                            <li><a href="#">Infographics</a></li>
+                                                            <li><a href="#">Brochures</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button id="platform-mmenu" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#platform_mmenu" aria-expanded="false"
+                                        aria-controls="platform_mmenu">
+                                        Platform
+                                    </button>
+                                    <div id="platform_mmenu" class="accordion-collapse collapse"
+                                        aria-labelledby="platform-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Integrated Innovations</h4>
+                                                        <ul>
+                                                            <li><a href="desktop-ready.html">DesktopReady</a></li>
+                                                            <li><a href="cloud-optimal.html">CloudOptimal</a></li>
+                                                            <li><a href="eu-vantage.html">EuVantage</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a class="single_item" href="#">
+                                        Partners
+                                    </a>
+                                </div>
+                                <div class="accordion-item">
+                                    <button id="about-mmenu" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#about_mmenu" aria-expanded="false"
+                                        aria-controls="about_mmenu">
+                                        About Us
+                                    </button>
+                                    <div id="about_mmenu" class="accordion-collapse collapse"
+                                        aria-labelledby="about-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Behind the Cloud</h4>
+                                                        <ul>
+                                                            <li><a href="#">Why Anunta</a></li>
+                                                            <li><a href="#">Our Team</a></li>
+                                                            <li><a href="#">Our Customers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <h4>Spotlight & Opportunities</h4>
+                                                        <ul>
+                                                            <li><a href="#">News and Awards</a></li>
+                                                            <li><a href="#">Events</a></li>
+                                                            <li><a href="#">Careers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb_footer">
+                                <p>Experience Anunta’s Acumen - Join 375+ Satisfied Clients Today</p>
+                                <a href="#">Schedule Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu_center">
+                    <ul class="main_navbar">
+                        <li class="nav_item">
+                            <a class="dropdown-toggle nav_link" type="button" id="solution_menu"
+                                data-bs-toggle="dropdown" aria-expanded="false">Solutions<i
+                                    class="ti-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="solution_menu">
+                                <div class="submenu_wrap">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Unlock the Future of Digital Workspaces</h4>
+                                                    <ul>
+                                                        <li><a href="digital-workspace.html">Digital Workspaces</a></li>
+                                                        <li class="solution_menu_box"><a
+                                                                href="development-solutions.html">DaaS (Desktop as a
+                                                                Service)</a></li>
+                                                        <li class="solution_menu_box"><a href="mdm.html">MDM (Modern
+                                                                Desktop Management)</a></li>
+                                                        <li class="solution_menu_box"><a href="sase.html">SASE (Secure
+                                                                Access Service Edge)</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Elevate Your Business with Premier Cloud Services</h4>
+                                                    <ul>
+                                                        <li><a href="cloud_services.html">Cloud Services</a></li>
+                                                        <li class="solution_menu_box"><a
+                                                                href="migration.html">Migration</a></li>
+                                                        <li class="solution_menu_box"><a
+                                                                href="management.html">Management</a></li>
+                                                        <li class="solution_menu_box"><a
+                                                                href="optimization.html">Optimization</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom_submenu_wrap">
+                                    <div class="container">
+                                        <div class="bottom_submenu_box">
+                                            <h4>Acumen in Action</h4>
+                                            <ul class="acumen_menu">
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <a class="more_btn" href="#">
+                                                More Customer Stories<i class="ti-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav_item">
+                            <a class="dropdown-toggle nav_link" type="button" id="industry_menu"
+                                data-bs-toggle="dropdown" aria-expanded="false">Industries<i
+                                    class="ti-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="industry_menu">
+                                <div class="submenu_wrap">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Crafting Industry-Centric Clouds</h4>
+                                                    <ul>
+                                                        <li><a href="bank.html">Banks and Financial Services</a></li>
+                                                        <li><a href="healthcare.html">Healthcare and Pharmaceuticals</a>
+                                                        </li>
+                                                        <li><a href="it.html">IT and ITES</a></li>
+                                                        <li><a href="manufacturing.html">Manufacturing</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Elevate Your Business with Premier Cloud Services</h4>
+                                                    <ul>
+                                                        <li><a href="insurance.html">Insurance</a></li>
+                                                        <li><a href="retail.html">Retail</a></li>
+                                                        <li><a href="education.html">Education</a></li>
+                                                        <li><a href="professional.html">Professional Services</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom_submenu_wrap">
+                                    <div class="container">
+                                        <div class="bottom_submenu_box">
+                                            <h4>Acumen in Action</h4>
+                                            <ul class="acumen_menu">
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <a class="more_btn" href="#">
+                                                More Customer Stories<i class="ti-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav_item">
+                            <a class="dropdown-toggle nav_link" type="button" id="resource_menu"
+                                data-bs-toggle="dropdown" aria-expanded="false">Resources<i
+                                    class="ti-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="resource_menu">
+                                <div class="submenu_wrap">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Discover & Dive In</h4>
+                                                    <ul>
+                                                        <li><a href="blog-list.html">Blog</a></li>
+                                                        <li><a href="case_studies.html">Case Studies</a></li>
+                                                        <li><a href="#">Videos</a></li>
+                                                        <li><a href="#">FAQ</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Grab & Go Guides</h4>
+                                                    <ul>
+                                                        <li><a href="whitepaper.html">Whitepapers</a></li>
+                                                        <li><a href="#">Reports</a></li>
+                                                        <li><a href="#">Infographics</a></li>
+                                                        <li><a href="#">Brochures</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom_submenu_wrap">
+                                    <div class="container">
+                                        <div class="bottom_submenu_box">
+                                            <h4>Acumen in Action</h4>
+                                            <ul class="acumen_menu">
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <figure><img src="images/cs1.jpeg" /></figure>
+                                                        <span>Boosting BYOD with App Virtualization for a Global Power
+                                                            Manufacturer</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <a class="more_btn" href="#">
+                                                More Customer Stories<i class="ti-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav_item"><a class="nav_link" href="#">Partners</a></li>
+                        <li class="nav_item">
+                            <a class="dropdown-toggle nav_link" type="button" id="platform_menu"
+                                data-bs-toggle="dropdown" aria-expanded="false">Platforms<i
+                                    class="ti-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="platform_menu">
+                                <div class="submenu_wrap">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Integrated Innovations</h4>
+                                                    <ul>
+                                                        <li><a href="desktop-ready.html">DesktopReady</a></li>
+                                                        <li><a href="cloud-optimal.html">CloudOptimal</a></li>
+                                                        <li><a href="eu-vantage.html">EuVantage</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav_item">
+                            <a class="dropdown-toggle nav_link" type="button" id="about_menu" data-bs-toggle="dropdown"
+                                aria-expanded="false">About Us<i class="ti-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="about_menu">
+                                <div class="submenu_wrap">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Behind the Cloud</h4>
+                                                    <ul>
+                                                        <li><a href="#">Why Anunta</a></li>
+                                                        <li><a href="#">Our Team</a></li>
+                                                        <li><a href="#">Our Customers</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <div class="submenu_box">
+                                                    <h4>Spotlight & Opportunities</h4>
+                                                    <ul>
+                                                        <li><a href="#">News and Awards</a></li>
+                                                        <li><a href="#">Events</a></li>
+                                                        <li><a href="#">Careers</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="menu_cta_btn" href="#">Consultation</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="about_wrap">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <ul class="nav" id="myTab" role="tablist">
+                        <li>
+                            <a class="active" id="abuot-one" data-bs-toggle="tab" data-bs-target="#about_one"
+                                type="button" role="tab" aria-controls="about_one" aria-selected="true">Founder and
+                                Chairman</a>
+                        </li>
+                        <li>
+                            <a id="about-two" data-bs-toggle="tab" data-bs-target="#about_two" type="button" role="tab"
+                                aria-controls="about_two" aria-selected="false">CEO and Deputy Managing
+                                Director</a>
+                        </li>
+                        <li>
+                            <a id="about-three" data-bs-toggle="tab" data-bs-target="#about_three" type="button"
+                                role="tab" aria-controls="about_three" aria-selected="false">Executive
+                                Director and CTO</a>
+                        </li>
+                        <li>
+                            <a id="about-four" data-bs-toggle="tab" data-bs-target="#about_four" type="button"
+                                role="tab" aria-controls="about_four" aria-selected="false">President - Sales
+                                (Northern America)</a>
+                        </li>
+                        <li>
+                            <a id="about-five" data-bs-toggle="tab" data-bs-target="#about_five" type="button"
+                                role="tab" aria-controls="about_five" aria-selected="false">Chief Operating
+                                Officer</a>
+                        </li>
+                        <li>
+                            <a id="about-six" data-bs-toggle="tab" data-bs-target="#about_six" type="button" role="tab"
+                                aria-controls="about_six" aria-selected="false">President- Sales
+                                (India)</a>
+                        </li>
+                        <li>
+                            <a id="about-seven" data-bs-toggle="tab" data-bs-target="#about_seven" type="button"
+                                role="tab" aria-controls="about_seven" aria-selected="false">Chief
+                                Strategic Alliances</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                    <div class="about_inner" class="tab-content" id="myTabContent">
+                        <div class="about_box active" id="about_one" role="tabpanel" aria-labelledby="abuot-one">
+                            <div class="about_title">
+                                <figure>
+                                    <img src="./images/about-profile/1.png" alt="">
+                                </figure>
+                                <div class="title_con">
+                                    <h4>Ananda Mukerji</h4>
+                                    <h5>Founder and Executive Chairman</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Ananda Mukerji, the Founder and Chairman of Anunta, previously pioneered as the founding
+                                CEO of Firstsource Solutions, a leading global provider of BPO Solutions. Under his
+                                leadership, Firstsource achieved a successful listing on Indian stock exchanges and
+                                expanded its footprint across India, the US, UK, and the Philippines.<br /><br />
+                                With over three decades of expertise spanning project finance, corporate finance, and
+                                investment banking, Ananda played a pivotal role in launching and managing new ventures
+                                during his tenure at ICICI Group, India's premier private banking
+                                conglomerate.<br /><br />
+                                An alumni of the prestigious Indian Institute of Management (IIM), Calcutta, and the
+                                Indian Institute of Technology (IIT), Kharagpur, Ananda boasts both a post-graduate
+                                diploma in Management and a graduate degree.
+                            </p>
+                        </div>
+                        <div class="about_box" id="about_two" role="tabpanel" aria-labelledby="about-two">
+                            <div class="about_title">
+                                <figure>
+                                    <img src="./images/about-profile/2.png" alt="">
+                                </figure>
+                                <div class="title_con">
+                                    <h4>Sivakumar Ramamurthy</h4>
+                                    <h5>CEO and Deputy Managing Director</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Sivakumar Ramamurthy (Siva) is the CEO and Deputy Managing Director of Anunta, and also
+                                holds a seat on its Board. Previously serving as the company's Deputy Managing Director
+                                & COO, he has been a driving force behind Anunta's transformative technology adoption
+                                and growth since its inception.<br /><br />
+                                Before his time at Anunta, Siva held significant roles at Firstsource, a top business
+                                process management provider. His leadership at Anunta focuses on pioneering technology
+                                innovations, steering global business operations, and enhancing customer experience.
+                                Recognized as a thought leader in the IT sphere, Siva frequently shares his insights at
+                                global tech events. His expertise spans a wide range of IT services, especially in areas
+                                of virtualization, cloud services, and remote management.<br /><br />
+                                Siva is an alumnus of Madras University, holding a master's in project management and a
+                                degree in Physics.
+                            </p>
+                        </div>
+                        <div class="about_box" id="about_three" role="tabpanel" aria-labelledby="about-three">
+                            <div class="about_title">
+                                <figure>
+                                    <img src="./images/about-profile/3.png" alt="">
+                                </figure>
+                                <div class="title_con">
+                                    <h4>Vinod Jeyachandran</h4>
+                                    <h5>Executive Director and CTO</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Vinod serves as the Executive Director and CTO at Anunta, bringing over two decades of
+                                expertise in crafting top-tier network management products. Passionate about Holistic
+                                Performance Management, Software-Defined Networks, and Network Function Virtualization,
+                                Vinod previously held senior roles at Riverbed Technology and was the VP of Engineering
+                                at OPNET Technologies.<br /><br />
+                                As a patent holder and recognized authority in performance management, Vinod continues
+                                to shape the industry discourse.<br /><br />
+                                He earned his M.S. in Engineering Science from the University of Toledo, US, and a B.S.
+                                from Bharathiyar University, India. Vinod operates from Potomac, MD, USA.
+                            </p>
+                        </div>
+                        <div class="about_box" id="about_four" role="tabpanel" aria-labelledby="about-four">
+                            <div class="about_title">
+                                <figure>
+                                    <img src="./images/about-profile/4.png" alt="">
+                                </figure>
+                                <div class="title_con">
+                                    <h4>Manvinder Sandhu</h4>
+                                    <h5>President – Sales (North America)</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Manvinder boasts a 25-year sales trajectory spanning the US, India, and the Middle East,
+                                collaborating with giants like Hyundai Byte Systems, Unisys, and Accenture. He pioneered
+                                Unisys's ‘Network Enable’ initiative in Bahrain and spearheaded APAC sales for Corliant
+                                until its acquisition by Accenture, where he then transitioned as their Sales Director
+                                for Technology Consulting in India.<br /><br />
+                                As a testament to his prowess, Manvinder holds the prestigious Cisco Certified
+                                Internetwork Expert (CCIE) title.<br /><br />
+                                He's an engineering graduate from Pune University.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------js-link--------------->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/css3-animate-it.js"></script>
+    <script src="js/website.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+</body>
+
+</html>

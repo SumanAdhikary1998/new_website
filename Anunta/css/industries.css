@@ -1,0 +1,126 @@
+:root {
+    --Purple: linear-gradient(102.84deg, #827191 0%, #71627E 100%);
+}
+
+
+/*-----------------------insurance-page-----------------------*/
+
+.insurance_banner {
+    background-image: var(--Purple);
+}
+
+.insurance_offer {
+    background: #F5FAF8;
+}
+
+.insurance_work_text {
+    padding: 32px 0;
+    padding-bottom: 0;
+}
+
+.insurance_work_text ul {
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.insurance_work_text ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 0 32px;
+    padding-left: 68px;
+    border-radius: 4px;
+    color: #071E22;
+    height: 32px;
+    position: relative;
+}
+
+.insurance_work_text ul li i {
+    font-size: 20px;
+    color: #60935D;
+    position: absolute;
+    top: 2px;
+    left: 32px;
+}
+
+.insurance_work_text ul li:nth-child(even) {
+    background-color: #F5FAF8;
+}
+
+.ins_inner {
+    padding: 8px;
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cloud_work_text {
+    background-color: #ECF8F8;
+}
+
+.insurance_work_text p {
+    color: #1e2f97;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding: 0 32px;
+    margin-bottom: 16px;
+}
+
+
+/*------------------industries_page_changes----------------*/
+
+.blockHead h2 span {
+    color: #1e2f97;
+    margin-left: 10px;
+}
+
+.sucStories .blockHead h3 {
+    color: #1e2f97;
+}
+
+.sucStories .blockHead h3 span {
+    color: #1e2f97;
+    margin-left: 10px;
+}
+
+.transform_box_wrap .trans_big_box .item_con h4 {
+    color: #071E22
+}
+
+.transform_box_wrap .trans_big_box .item_con p {
+    color: #54618D;
+}
+
+@media(max-width:992px) {
+    .insurance_work_text {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+}
+
+@media(max-width:768px) {
+    .insurance_wocGreen {
+        min-height: unset;
+    }
+    .insurance_work_text {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+    .insurance_work_text ul {
+        gap: 16px;
+    }
+}
+
+@media(max-width:575px) {
+    .weoffer_wrap .row {
+        margin: 0;
+        gap: 8px;
+    }
+    .weoffer_wrap .row .col-12 {
+        padding: 0;
+    }
+}

@@ -1,0 +1,349 @@
+                                      :root {
+                                         --green-color: #60935D;
+                                         --light-sky: #F5FAF8;
+                                         --yellow: #E7B055;
+                                         --white: #fff;
+                                     }
+                                     
+                                     .headerContainer.whiteStrip {
+                                         background: var(--green-color);
+                                         border: 1px solid var(--green-color);
+                                         clear: both;
+                                         display: block;
+                                         padding: 5px 0px;
+                                     }
+                                     
+                                     .headerContainer.whiteStrip ul.topNav li a {
+                                         font-size: 14px;
+                                         font-weight: 500;
+                                         line-height: 17px;
+                                         letter-spacing: 0.05em;
+                                         text-align: center;
+                                     }
+                                     
+                                     .headerContainer.whiteStrip .topRightHead a {
+                                         display: inline-block;
+                                         clear: both;
+                                         font-size: 14px;
+                                         color: var(--white);
+                                         border: 1px solid var(--white);
+                                         border-radius: 4px;
+                                         padding: 10px 20px;
+                                     }
+                                     
+                                     .headerContainer.whiteStrip .topRightHead a:hover {
+                                         background: #3363FF;
+                                         color: var(--white);
+                                     }
+                                     
+                                     .homeBanner2 {
+                                         /* background-color: var(--green-color); */
+                                         /* background-image: url(../images/Ellipse_img22.png); */
+                                         background: linear-gradient(91.8deg, #669C63 0%, #527D4F 100%);
+                                         background-position: right top;
+                                         background-repeat: no-repeat;
+                                     }
+                                     
+                                     .homeBanner .hbLeft p {
+                                         font-family: Lato;
+                                         font-size: 17px;
+                                         font-weight: 400;
+                                         line-height: 27px;
+                                         letter-spacing: 0em;
+                                         text-align: left;
+                                         color: var(--white);
+                                         padding-right: 115px;
+                                     }
+                                     /*------------------Our-Core-Digital--------------*/
+                                     
+                                     .oue_core .row .col-12 {
+                                         padding: 4px;
+                                     }
+                                     
+                                     .our_core_section {
+                                         background-color: #EDF8ED;
+                                         /* width: 394.67px; */
+                                         /* height: 318px; */
+                                         height: auto;
+                                         border-radius: 8px;
+                                         padding: 16px 32px 32px 32px;
+                                     }
+                                     
+                                     .our_core_section:hover {
+                                         background-color: #BEE7E8;
+                                     }
+                                     
+                                     .our_img h5 {
+                                         font-size: 20px;
+                                         font-weight: 800;
+                                         line-height: 28px;
+                                         letter-spacing: 0em;
+                                         text-align: left;
+                                         color: #60935D;
+                                         padding-top: 16px;
+                                         padding-bottom: 12px;
+                                     }
+                                     
+                                     .our_img h5 i {
+                                         font-size: 14px;
+                                         padding-left: 7px;
+                                     }
+                                     
+                                     .our_img p {
+                                         font-size: 17px;
+                                         font-weight: 400;
+                                         line-height: 27px;
+                                         letter-spacing: 0em;
+                                         text-align: left;
+                                         color: #54618D;
+                                     }
+                                     /*----------------Unlocking---------------*/
+                                     /* .Unlocking {
+padding-bottom: 24px;
+} */
+                                     
+                                     .Unlocking_img {
+                                         height: 400px;
+                                         border-radius: 8px;
+                                         background-color: var(--white);
+                                         display: flex;
+                                         flex-direction: column;
+                                         align-items: center;
+                                         justify-content: center;
+                                         background-image: url(../images/cloud_banner.jpg);
+                                         background-size: cover;
+                                         background-repeat: no-repeat;
+                                     }
+                                     
+                                     .Unlocking_img p {
+                                         text-align: center;
+                                         font-size: 16px;
+                                         font-weight: 600;
+                                         line-height: 32px;
+                                         color: #54618D;
+                                         padding: 0;
+                                         margin: 0;
+                                     }
+                                     
+                                     .Unlocking_text {
+                                         height: 550px;
+                                     }
+                                     
+                                     .Unlocking_text ul {
+                                         display: grid;
+                                         grid-template-columns: repeat(2, 1fr);
+                                         gap: 64px;
+                                         padding: 64px 0;
+                                         padding-top: 128px;
+                                     }
+                                     
+                                     .Unlocking_text ul li h5 {
+                                         font-size: 20px;
+                                         font-weight: 700;
+                                         line-height: 28px;
+                                         letter-spacing: 0em;
+                                         text-align: left;
+                                         color: #071E22;
+                                         padding-bottom: 16px;
+                                     }
+                                     
+                                     .Unlocking_text ul li p {
+                                         font-size: 17px;
+                                         font-weight: 400;
+                                         line-height: 27px;
+                                         letter-spacing: 0em;
+                                         text-align: left;
+                                         color: #54618D;
+                                         margin: 0px;
+                                         padding: 0px;
+                                     }
+                                     
+                                     .digital_footer p {
+                                         font-size: 14px;
+                                         font-weight: 700;
+                                         line-height: 21px;
+                                         letter-spacing: 0.03em;
+                                         text-align: left;
+                                         color: #54618D;
+                                         text-transform: uppercase;
+                                         padding-bottom: 8px;
+                                     }
+                                     
+                                     .digital_footer h2 {
+                                         margin: -12px 0 32px;
+                                         color: #071E22;
+                                     }
+                                     
+                                     .digital_footer ul {
+                                         width: 700px;
+                                         margin-bottom: 48px;
+                                     }
+                                     
+                                     .digital_footer ul li {
+                                         font-family: Lato;
+                                         font-size: 17px;
+                                         font-weight: 400;
+                                         line-height: 27px;
+                                         letter-spacing: 0em;
+                                         color: #071E22;
+                                         position: relative;
+                                     }
+                                     
+                                     .digital_footer ul li i {
+                                         color: #60935D;
+                                         padding-right: 8px;
+                                         font-size: 17px;
+                                     }
+                                     
+                                     .digital_footer_img img {
+                                         margin-top: 15px;
+                                         width: 115%;
+                                     }
+                                     
+                                     .digital_footer a {
+                                         margin-bottom: 48px;
+                                     }
+                                     
+                                     .tagLink3 {
+                                         color: #54618D !important;
+                                     }
+                                     
+                                     .two_sel {
+                                         margin-bottom: 48px;
+                                         display: flex;
+                                         gap: 24px;
+                                     }
+                                     
+                                     .weOffer_digital {
+                                         padding: 80px 0px 96px 0px;
+                                     }
+                                     
+                                     .homeBanner2 .hbLeft {
+                                         padding-bottom: unset;
+                                     }
+                                     
+                                     .homeBanner2 .hbLeft h1 {
+                                         margin-top: 0px;
+                                         margin-bottom: 24px;
+                                     }
+                                     
+                                     @media(max-width:992px) {
+                                         .homeBanner2 .hbRight {
+                                             width: unset;
+                                             float: unset;
+                                             margin-top: 64px;
+                                         }
+                                         .homeBanner2 .hbLeft p {
+                                             padding-right: 140px;
+                                         }
+                                         .oue_core .row {
+                                             display: grid;
+                                         }
+                                         .oue_core .row .col-md-4 {
+                                             width: 100%;
+                                         }
+                                         .oue_core .our_core_section {
+                                             width: 100%;
+                                             margin-bottom: 8px;
+                                             padding: 16px 32px 32px 32px;
+                                             height: auto;
+                                         }
+                                         /* .Unlocking_img {
+    width: 704px;
+    height: 464px;
+} */
+                                         .Unlocking_img p {
+                                             padding: 190px 0px;
+                                         }
+                                         .excPlatforms .col-md-6 {
+                                             width: 100%;
+                                         }
+                                         .Unlocking_text {
+                                             margin-top: unset;
+                                             height: auto;
+                                         }
+                                         .digital_footer ul {
+                                             display: none;
+                                         }
+                                         .digital_footer_img img {
+                                             width: 208%;
+                                         }
+                                         .homeBanner2 .hbLeft {
+                                             width: unset;
+                                         }
+                                         .homeBanner2 {
+                                             background-position: bottom;
+                                             background-repeat: no-repeat;
+                                         }
+                                         .weOffer_digital {
+                                             padding: 80px 32px 80px 32px;
+                                         }
+                                         .weOffer_digital .excPlatforms2 {
+                                             padding: 80px 32px 96px 32px;
+                                         }
+                                         .homeBanner2 .hbLeft {
+                                             padding-bottom: unset;
+                                         }
+                                         .digital_footer h2 {
+                                             margin: -12px 0 64px;
+                                         }
+                                     }
+                                     
+                                     @media(max-width:575px) {
+                                         .homeBanner2 .hbLeft {
+                                             padding-bottom: unset;
+                                         }
+                                         .homeBanner2 .hbLeft h1 {
+                                             /* margin: 30px 14px 30px 0px; */
+                                         }
+                                         .homeBanner2 .hbLeft p {
+                                             padding-right: 100px;
+                                         }
+                                         .homeBanner2 .hbRight img {
+                                             width: 174%;
+                                             margin-left: -27%;
+                                         }
+                                         .weOffer .blockHead .smallTitle {
+                                             padding-right: 17px;
+                                         }
+                                         .our_core_section {
+                                             height: auto;
+                                         }
+                                         .Unlocking h2 {
+                                             padding-right: 18px;
+                                         }
+                                         .Unlocking_text ul {
+                                             grid-template-columns: repeat(1, 2fr);
+                                             gap: 64px;
+                                             margin: 0px;
+                                         }
+                                         .Unlocking_img p {
+                                             padding: 179px 0px;
+                                         }
+                                         .digital_footer_img img {
+                                             width: unset;
+                                             margin-left: -20%;
+                                         }
+                                         .digital_footer ul {
+                                             display: none;
+                                         }
+                                         .homeBanner2 {
+                                             background-position: bottom left;
+                                             background-repeat: no-repeat;
+                                         }
+                                         .weOffer_digital {
+                                             padding: 80px 16px 80px 16px;
+                                         }
+                                         .oue_core {
+                                             margin-top: 48px;
+                                         }
+                                         .excPlatforms2 {
+                                             padding: 80px 16px 96px 16px;
+                                         }
+                                         .excPlatforms2 .blockHead {
+                                             margin-bottom: 48px;
+                                         }
+                                         .digital_footer h2 {
+                                             margin: -12px 0 64px;
+                                         }
+                                     }

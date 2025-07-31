@@ -1,0 +1,857 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Anunta</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mi_style.css">
+    <link rel="stylesheet" href="css/workspace.css">
+    <link rel="stylesheet" href="css/cloud_services.css">
+    <link rel="stylesheet" href="css/industries.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/solutions.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main_navbar.css">
+    <link rel="stylesheet" href="scss/new_style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="main_header" id="mynav">
+        <div class="container">
+            <div class="menu_inner">
+                <div class="menu_left">
+                    <a class="menu_logo" href="index.html">
+                        <img src="images/anunta-new-logo.png" />
+                    </a>
+                    <button class="mobile_menu_btn">
+                        <i class="ri-menu-line"></i>
+                    </button>
+                    <!-- Mobile Menu Accordion -->
+                    <div class="mobile_menu_wrap">
+                        <div class="mb_inner">
+                            <div class="accordion" id="mobile_accordion">
+                                <div class="accordion-item">
+                                    <button id="solution-mmenu" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#solution_mmenu" aria-expanded="false" aria-controls="solution_mmenu">
+                                        Solutions
+                                    </button>
+                                    <div id="solution_mmenu" class="accordion-collapse collapse" aria-labelledby="solution-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="development-solutions.html"><span>DaaS/VDI</span></a></li>
+                                                            <li class="solution_menu_box"><a href="enterprise_dass.html">Enterprise DaaS</a></li>
+                                                            <li class="solution_menu_box"><a href="packaged_dass.html">Packaged DaaS</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="mdm.html"><span>Modern Desktop Management (MDM)</span></a>
+                                                            </li>
+                                                            <li class="solution_menu_box"><a href="byod.html">Bring Your Own Device (BYOD)</a></li>
+                                                            <li class="solution_menu_box"><a href="sase.html">Secure Access Service Edge (SASE)</a></li>
+                                                            <li><a href="desktop_management.html">Desktop Management</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="cloud_services.html"><span>Cloud Services</span></a>
+                                                            </li>
+                                                            <li class="solution_menu_box"><a href="migration.html">Cloud Migration</a></li>
+                                                            <li class="solution_menu_box"><a href="management.html">Cloud Management</a></li>
+                                                            <li class="solution_menu_box"><a href="optimization.html">Cloud Optimization</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button id="platform-mmenu" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#platform_mmenu" aria-expanded="false" aria-controls="platform_mmenu">
+                                        Platform
+                                    </button>
+                                    <div id="platform_mmenu" class="accordion-collapse collapse" aria-labelledby="platform-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <!-- <h4>Integrated Innovations</h4> -->
+                                                        <ul>
+                                                            <li><a href="desktop-ready.html">DesktopReady</a></li>
+                                                            <li><a href="cloud-optimal.html">CloudOptimal</a></li>
+                                                            <li><a href="eu-vantage.html">EuVantage</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a class="single_item" href="#">
+                                        Partners
+                                    </a>
+                                </div>
+                                <div class="accordion-item">
+                                    <button id="industries-mmenu" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#industries_mmenu" aria-expanded="false" aria-controls="industries_mmenu">
+                                        Industries
+                                    </button>
+                                    <div id="industries_mmenu" class="accordion-collapse collapse" aria-labelledby="industries-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <!-- <h4>Crafting Industry-Centric Clouds</h4> -->
+                                                        <ul>
+                                                            <li><a href="bank.html">Banks and Financial Services</a>
+                                                            </li>
+                                                            <li><a href="healthcare.html">Healthcare and
+                                                                    Pharmaceuticals</a></li>
+                                                            <li><a href="it.html">IT and ITES</a></li>
+                                                            <li><a href="manufacturing.html">Manufacturing</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <!-- <h4>Elevate Your Business with Premier Cloud Services</h4> -->
+                                                        <ul>
+                                                            <li><a href="insurance.html">Insurance</a></li>
+                                                            <li><a href="retail.html">Retail</a></li>
+                                                            <li><a href="education.html">Education</a></li>
+                                                            <li><a href="professional.html">Professional Services</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button id="resource-mmenu" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resource_mmenu" aria-expanded="false" aria-controls="resource_mmenu">
+                                        Resource
+                                    </button>
+                                    <div id="resource_mmenu" class="accordion-collapse collapse" aria-labelledby="resource-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <!-- <h4>Discover & Dive In</h4> -->
+                                                        <ul>
+                                                            <li><a href="blog-list.html">Blog</a></li>
+                                                            <li><a href="case_studies.html">Case Studies</a></li>
+                                                            <li><a href="#">Videos</a></li>
+                                                            <li><a href="#">FAQ</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="submenu_box">
+                                                        <!-- <h4>Grab & Go Guides</h4> -->
+                                                        <ul>
+                                                            <li><a href="whitepaper.html">Whitepapers</a></li>
+                                                            <li><a href="#">Reports</a></li>
+                                                            <li><a href="#">Infographics</a></li>
+                                                            <li><a href="#">Brochures</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <button id="about-mmenu" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#about_mmenu" aria-expanded="false" aria-controls="about_mmenu">
+                                        About Us
+                                    </button>
+                                    <div id="about_mmenu" class="accordion-collapse collapse" aria-labelledby="about-mmenu" data-bs-parent="#mobile_accordion">
+                                        <div class="acc_body">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <!-- <h4>Behind the Cloud</h4> -->
+                                                        <ul>
+                                                            <li><a href="#">Why Anunta</a></li>
+                                                            <li><a href="#">Our Team</a></li>
+                                                            <li><a href="#">Our Customers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <!-- <h4>Spotlight & Opportunities</h4> -->
+                                                        <ul>
+                                                            <li><a href="#">News and Awards</a></li>
+                                                            <li><a href="#">Events</a></li>
+                                                            <li><a href="#">Careers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb_footer">
+                                <p>Experience Anunta’s Acumen - Join 375+ Satisfied Clients Today</p>
+                                <a href="#">Schedule Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rmenu_right">
+                    <div class="menu_center">
+                        <ul class="main_navbar">
+                            <li class="nav_item">
+                                <a class="dropdown-toggle nav_link" type="button" id="solution_menu" data-bs-toggle="dropdown" aria-expanded="false">Solutions<i
+                                        class="ti-angle-down"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="solution_menu">
+                                    <div class="submenu_wrap">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="development-solutions.html"><span>DaaS/VDI</span></a></li>
+                                                            <li class="solution_menu_box"><a href="enterprise_dass.html">Enterprise DaaS</a></li>
+                                                            <li class="solution_menu_box"><a href="packaged_dass.html">Packaged DaaS</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="mdm.html"><span>Modern Desktop Management (MDM)</span></a>
+                                                            </li>
+                                                            <li class="solution_menu_box"><a href="byod.html">Bring Your Own Device (BYOD)</a></li>
+                                                            <li class="solution_menu_box"><a href="sase.html">Secure Access Service Edge (SASE)</a></li>
+                                                            <li><a href="desktop_management.html">Desktop Management</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="cloud_services.html"><span>Cloud Services</span></a>
+                                                            </li>
+                                                            <li class="solution_menu_box"><a href="migration.html">Cloud Migration</a></li>
+                                                            <li class="solution_menu_box"><a href="management.html">Cloud Management</a></li>
+                                                            <li class="solution_menu_box"><a href="optimization.html">Cloud Optimization</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav_item">
+                                <a class="dropdown-toggle nav_link" type="button" id="platform_menu" data-bs-toggle="dropdown" aria-expanded="false">Platforms<i
+                                        class="ti-angle-down"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="platform_menu">
+                                    <div class="submenu_wrap">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="desktop-ready.html">DesktopReady</a></li>
+                                                            <li><a href="cloud-optimal.html">CloudOptimal</a></li>
+                                                            <li><a href="eu-vantage.html">EuVantage</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav_item"><a class="nav_link" href="#">Partners</a></li>
+                            <li class="nav_item">
+                                <a class="dropdown-toggle nav_link" type="button" id="industry_menu" data-bs-toggle="dropdown" aria-expanded="false">Industries<i
+                                        class="ti-angle-down"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="industry_menu">
+                                    <div class="submenu_wrap">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="bank.html">Banks and Financial Services</a>
+                                                            </li>
+                                                            <li><a href="healthcare.html">Healthcare and
+                                                                    Pharmaceuticals</a>
+                                                            </li>
+                                                            <li><a href="it.html">IT and ITES</a></li>
+                                                            <li><a href="manufacturing.html">Manufacturing</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="insurance.html">Insurance</a></li>
+                                                            <li><a href="retail.html">Retail</a></li>
+                                                            <li><a href="education.html">Education</a></li>
+                                                            <li><a href="professional.html">Professional Services</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav_item">
+                                <a class="dropdown-toggle nav_link" type="button" id="resource_menu" data-bs-toggle="dropdown" aria-expanded="false">Resources<i
+                                        class="ti-angle-down"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="resource_menu">
+                                    <div class="submenu_wrap">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="blog-list.html">Blog</a></li>
+                                                            <li><a href="case_studies.html">Case Studies</a></li>
+                                                            <li><a href="#">Videos</a></li>
+                                                            <li><a href="#">FAQ</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="whitepaper.html">Whitepapers</a></li>
+                                                            <li><a href="#">Reports</a></li>
+                                                            <li><a href="#">Infographics</a></li>
+                                                            <li><a href="#">Brochures</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <li class="nav_item">
+                                <a class="dropdown-toggle nav_link" type="button" id="about_menu" data-bs-toggle="dropdown" aria-expanded="false">About Us<i
+                                        class="ti-angle-down"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="about_menu">
+                                    <div class="submenu_wrap">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="#">Why Anunta</a></li>
+                                                            <li><a href="#">Our Team</a></li>
+                                                            <li><a href="#">Our Customers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="submenu_box">
+                                                        <ul>
+                                                            <li><a href="#">News and Awards</a></li>
+                                                            <li><a href="#">Events</a></li>
+                                                            <li><a href="#">Careers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="menu_cta_btn" href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner_wrap inner_page_banner opt_banner purple_gr_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="banner_info">
+                        <ul>
+                            <li><a href="#">Industries</a></li>
+                            <li>Banks and Financial Services</li>
+                        </ul>
+                        <h1>Build a Robust, Reliable,<span>Secure IT Infrastructure</span></h1>
+                        <p>Deliver greater customer value without compromising on performance, security, or compliance.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <figure class="banner_img">
+                        <img src="./images/education_banner.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transform -->
+    <div class="transform_box_wrap manufacturing_transform">
+        <div class="container">
+            <div class="blockHead">
+                <!-- <div class="smallTitle">Title</div> -->
+                <h2>Enable Customized Experiences with <span>Our Secure, Resilient Solutions</span></h2>
+
+                <p>Financial services enterprises face the need to transform rapidly and regularly to meet changing business priorities. To adapt to changing workforce models, comply with stringent regulations, and meet user expectations, financial services
+                    enterprises need a modern and secure end-user computing solution.<br><br> Anunta’s digital workplace and cloud service solutions allow you to ensure security and regulatory compliance by building you an infrastructure that securely
+                    handles vital data and allows your remote workforce to stay efficient and productive.</p>
+            </div>
+            <div class="row main_row bank_main_col">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 main_col">
+                    <div class="trans_small_box">
+                        <img src="./images/mig_Group.svg" alt="">
+                        <!-- <h4>Future-proof Scalability</h4> -->
+                        <p>Built-in security and compliance mechanisms to access data from anywhere while ensuring compliance with PCI DSS 2.0 standards.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 main_col">
+                    <div class="trans_small_box">
+                        <img src="./images/icon-security.svg" alt="">
+                        <!-- <h4>Anywhere, Anytime Workforce Empowerment</h4> -->
+                        <p>Easily scalable architecture that grows with your company as you expand to new regions and product lines.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 main_col">
+                    <div class="trans_small_box">
+                        <img src="./images/icon-multicloud.png" alt="">
+                        <!-- <h4>Smart Cost Management</h4> -->
+                        <p>Secure access for your mobile workforce, providing location-agnostic access to resources and systems to resolve performance issues.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 main_col">
+                    <div class="trans_small_box">
+                        <img src="./images/icon-security.svg" alt="">
+                        <!-- <h4>Smart Cost Management</h4> -->
+                        <p>Reduced TCO (total cost of ownership) by use of multi-tenant architecture and the use of zero or thin clients that allow for cheaper endpoints to be used.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weOffer weoffer_wrap insurance_offer">
+        <div class="container">
+            <div class="blockHead">
+                <!-- <div class="smallTitle">What We Offer</div> -->
+                <h2>Where do<span>I start?</span></h2>
+                <p>Discover a comprehensive suite of solutions designed to optimize your digital workspace, enhance productivity, and ensure security across your organization.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="ins_inner">
+                        <div class="wocGreen insurance_wocGreen">
+                            <a href="#">
+                                <div class="wocImage"><img src="images/home-card-digitalWorkspaces.png"></div>
+                                <div class="wocMatr">
+                                    <h4>Digital Workspaces <i class="ti-angle-right"></i></h4>
+                                    <p>From Virtual Desktop Infrastructure (VDI) and Desktop-as-a-Service (DaaS) to Modern Desktop Management (MDM) and Secure Access Service Edge (SASE)/Edge, we simplify complexity and empower seamless collaboration for
+                                        distributed teams of all sizes.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insurance_work_text">
+                            <p>Includes</p>
+                            <ul>
+                                <li><i class="ri-check-line"></i> Rapid onboarding of contract workers for scale </li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Customized experiences and improved share of wallet</li>
+                                <li><i class="ri-check-line"></i> Downtime reduction in volatile trading environment
+                                </li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Data-driven rapid decision-making
+                                </li>
+                                <li><i class="ri-check-line"></i> Flexibility of a global workforce</li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Improved time to realize synergies from M&A activities</li>
+                                <li><i class="ri-check-line"></i> Eliminating risk of data misappropriation</li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Building scalable contact centers
+                                </li>
+                                <li><i class="ri-check-line"></i> Enhancing operational resilience</li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Rapidly scaling service coverage
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="ins_inner">
+                        <div class="wocBlue insurance_wocGreen">
+                            <a href="#">
+                                <div class="wocImage"><img src="images/home-card-cloudServices.png"></div>
+                                <div class="wocMatr">
+                                    <h4>Cloud Services <i class="ti-angle-right"></i></h4>
+                                    <p>Our expert team specializes in migration, management, and optimization services for leading cloud platforms, including Azure, AWS, Google Cloud Services, Citrix, and private cloud environments. Drive agility, cost efficiency,
+                                        and innovation with our cloud solutions.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="insurance_work_text">
+                            <p>Includes</p>
+                            <ul>
+                                <li><i class="ri-check-line"></i> Data store management</li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Customer engagement</li>
+                                <li><i class="ri-check-line"></i> Risk management and compliance</li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Mobile banking apps and open banking </li>
+                                <li><i class="ri-check-line"></i> Cost efficiency and scalability</li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Algorithmic trading and competitive analysis </li>
+                                <li><i class="ri-check-line"></i> Fraud detection and prevention </li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Cross-border payments and transactions
+                                </li>
+                                <li><i class="ri-check-line"></i> Wealth management and asset management</li>
+                                <li class="insurance_work_color"><i class="ri-check-line"></i> Credit scoring and lending
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section class="expert_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="expert_item">
+                        <h3>Do you want to know how each product applies to your business?</h3>
+                        <a href="#">Speak with an Expert</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <figure>
+                        <img src="./images/expert_img.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="right_pr_wrap bank_wrap_box">
+        <div class="container">
+            <div class="blockHead">
+                <!-- <div class="smallTitle">Use cases</div> -->
+                <h2>Use<span>Cases</span></h2>
+            </div>
+            <div class="offer_wrap use_case">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Enhancing operational resilience</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Building scalable contact centers</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Risk management and compliance</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Mobile banking apps and open banking</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Cost efficiency and scalability</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Data-driven rapid decision-making</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Fraud detection and prevention</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Flexibility of a global workforce</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Wealth management and asset management</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <a href="#" class="use_case_item sase_case_item deve_item">
+                            <img src="images/case_iocn.svg" alt="">
+                            <h5>Rapid onboarding of contract workers for scale</h5>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Success Stories -->
+    <div class="sucStories suc_story_wrap">
+        <div class="container">
+            <div class="sec_heading text-center text-white">
+                <h3>Success<span>Stories</span></h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="storySel">
+                        <div class="dropdown drop_select">
+                            <button class="dropdown-toggle" type="button" id="blog_ind" data-bs-toggle="dropdown" aria-expanded="false">
+                            All Industries
+                        </button>
+                            <ul class="dropdown-menu" aria-labelledby="blog_ind">
+                                <li><button class="dropdown-item">Industry One</button></li>
+                                <li><button class="dropdown-item">Industry Two</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown drop_select">
+                            <button class="dropdown-toggle" type="button" id="blog_ser" data-bs-toggle="dropdown" aria-expanded="false">
+                            All Solutions
+                        </button>
+                            <ul class="dropdown-menu" aria-labelledby="blog_ser">
+                                <li><button class="dropdown-item">Service One</button></li>
+                                <li><button class="dropdown-item">Service Two</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="home_slick_list">
+                        <div class="eachStory">
+                            <div class="esImage"><img src="images/es1.jpg" /></div>
+                            <div class="esMatr">
+                                <h3>Boosting BYOD with App Virtualization for a Global Power Manufacturer</h3>
+                            </div>
+                            <div class="slider_button">
+                                <a href="" class="tagLink">Manufacturing</a>
+                            </div>
+                        </div>
+                        <div class="eachStory">
+                            <div class="esImage"><img src="images/es2.jpg" /></div>
+                            <div class="esMatr">
+                                <h3>Transforming Workplaces for Business Continuity and Customer Experiences</h3>
+                            </div>
+                            <div class="slider_button">
+                                <a href="" class="tagLink">Manufacturing</a>
+                            </div>
+                        </div>
+                        <div class="eachStory">
+                            <div class="esImage"><img src="images/picture3.png" /></div>
+                            <div class="esMatr">
+                                <h3>Simplified IT Infrastructure Management for Consumer Electronics</h3>
+                            </div>
+                            <div class="slider_button">
+                                <a href="" class="tagLink">IT and ITES</a>
+                            </div>
+                        </div>
+                        <div class="eachStory">
+                            <div class="esImage"><img src="images/picture3.png" /></div>
+                            <div class="esMatr">
+                                <h3>Simplified IT Infrastructure Management for Consumer Electronics</h3>
+                            </div>
+                            <div class="slider_button">
+                                <a href="" class="tagLink">IT and ITES</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="seeAll">See All <i class="ti-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="cta_wrap with_det">
+        <img class="cta_img" src="./images/cta-illustration.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-10 col-md-10 col-sm-12 col-12">
+                    <h3>Your Partner in Financial Innovation</h3>
+                    <ul>
+                        <li><i class="ri-check-line"></i> Streamline your operations by optimizing internal processes, enhancing collaboration, and reducing infrastructure complexities.</li>
+                        <li><i class="ri-check-line"></i> Fortify your data security, meet regulatory requirements, and protect sensitive financial information.</li>
+                        <li><i class="ri-check-line"></i> Innovate and adapt to market changes by delivering cutting-edge services to your customers.</li>
+                    </ul>
+                    <a class="cta_btn" href="#">Schedule Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------js-link--------------->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/css3-animate-it.js"></script>
+    <script src="js/website.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!--------------------end-js-link--------------->
+
+</body>
+<script>
+    //header menu fixed top start
+    document.addEventListener("DOMContentLoaded", function() {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.getElementById('mynav').classList.add('fixed-top');
+                // add padding top to show content behind navbar
+                navbar_height = document.querySelector('.header_area').offsetHeight;
+                document.body.style.paddingTop = navbar_height + 'px';
+            } else {
+                document.getElementById('mynav').classList.remove('fixed-top');
+                // remove padding top from body
+                document.body.style.paddingTop = '0';
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $(".home_slick_list").slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            infinite: true,
+            autoplay: false,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }, {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1.9,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1.2,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+        $(".prev-btn").click(function() {
+            $(".home_slick_list").slick("slickPrev");
+        });
+
+        $(".next-btn").click(function() {
+            $(".home_slick_list").slick("slickNext");
+        });
+        $(".prev-btn").addClass("slick-disabled");
+        $(".home_slick_list").on("afterChange", function() {
+            if ($(".slick-prev").hasClass("slick-disabled")) {
+                $(".prev-btn").addClass("slick-disabled");
+            } else {
+                $(".prev-btn").removeClass("slick-disabled");
+            }
+            if ($(".slick-next").hasClass("slick-disabled")) {
+                $(".next-btn").addClass("slick-disabled");
+            } else {
+                $(".next-btn").removeClass("slick-disabled");
+            }
+        });
+    });
+</script>
+
+<script>
+    $('#gallery').slick({
+        slidesToShow: 8,
+        slidesToScroll: 80,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 10000,
+        pauseOnHover: false,
+        cssEase: 'linear',
+        rtl: false,
+        infinite: true,
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 5.5,
+            }
+        }, {
+            breakpoint: 450,
+            settings: {
+                slidesToShow: 2.5,
+            }
+        }, {
+            // Add more breakpoints and settings as needed
+        }]
+    });
+</script>
+
+</html>
